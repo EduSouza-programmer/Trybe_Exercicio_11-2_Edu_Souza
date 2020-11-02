@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Trybe_Exercicio_11-2_Edu_Souza/static/css/main.e76729f1.chunk.css",
+    "main.js": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/main.c191f79c.chunk.js",
+    "main.js.map": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/main.c191f79c.chunk.js.map",
+    "runtime-main.js": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/runtime-main.82d213d9.js",
+    "runtime-main.js.map": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/runtime-main.82d213d9.js.map",
+    "static/js/2.2029a11b.chunk.js": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/2.2029a11b.chunk.js",
+    "static/js/2.2029a11b.chunk.js.map": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/2.2029a11b.chunk.js.map",
+    "static/js/3.35b000a0.chunk.js": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/3.35b000a0.chunk.js",
+    "static/js/3.35b000a0.chunk.js.map": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/3.35b000a0.chunk.js.map",
+    "index.html": "/Trybe_Exercicio_11-2_Edu_Souza/index.html",
+    "static/css/main.e76729f1.chunk.css.map": "/Trybe_Exercicio_11-2_Edu_Souza/static/css/main.e76729f1.chunk.css.map",
+    "static/js/2.2029a11b.chunk.js.LICENSE.txt": "/Trybe_Exercicio_11-2_Edu_Souza/static/js/2.2029a11b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82d213d9.js",
+    "static/js/2.2029a11b.chunk.js",
+    "static/css/main.e76729f1.chunk.css",
+    "static/js/main.c191f79c.chunk.js"
+  ]
+}

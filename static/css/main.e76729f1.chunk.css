@@ -1,0 +1,2 @@
+.container-Pokemon{display:flex;align-items:center;justify-content:space-around;min-width:25%;margin:10px;border:1px solid grey;border-radius:10px}.container-Pokedex{flex-wrap:wrap;max-width:1180px}.container-Pokedex,.conteinerApp{display:flex;justify-content:center;align-items:center}.conteinerApp{flex-direction:column}
+/*# sourceMappingURL=main.e76729f1.chunk.css.map */
