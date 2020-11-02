@@ -7,9 +7,10 @@ export default class Pokedex extends React.Component {
   render() {
     return (
       <div className="container-Pokedex">
-        {this.props.pokemons.map(pokemon => (
-          <Pokemon key={pokemon.id} pokemon={pokemon} />
-        ))}
+        {this.props.pokemons.map(pokemon => {
+          // console.log(<Pokemon key={pokemon.id} pokemon={pokemon} />);
+          return <Pokemon key={pokemon.id} pokemon={pokemon} />;
+        })}
       </div>
     );
   }
