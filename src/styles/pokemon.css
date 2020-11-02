@@ -1,0 +1,9 @@
+.container-Pokemon {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 25%;
+	margin: 10px 10px;
+	border: 1px gray solid;
+	border-radius: 10px;
+}
