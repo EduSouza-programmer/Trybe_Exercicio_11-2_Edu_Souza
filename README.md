@@ -66,7 +66,7 @@ Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é 
 #
 
 <div align="center">
-  <img src="https://course.betrybe.com//front-end/react/components/my-pokedex-project.gif" alt="demo" height="425">
+  <img src="https://course.betrybe.com//front-end/react/components/my-pokedex-project.gif" alt="demo" height="300">
 </div>
 
 #
