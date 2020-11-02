@@ -71,7 +71,91 @@ Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é 
  <summary> :pencil2: Código Javascript</summary>
 
 ```js
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
+import reportWebVitals from './reportWebVitals';
 
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+// app.js
+import dataPokemons from '../DB_pokemons/data';
+import Pokedex from './pokedex';
+
+import '../styles/app.css';
+
+export default function App() {
+  return (
+    <div className="conteinerApp">
+      <h1>My Pokedex!</h1>
+      <Pokedex pokemons={dataPokemons} />
+    </div>
+  );
+}
+
+// pokedex.js
+import React from 'react';
+import Pokemon from './pokemon';
+
+import '../styles/pokedex.css';
+
+export default class Pokedex extends React.Component {
+  render() {
+    return (
+      <div className="container-Pokedex">
+        {this.props.pokemons.map(pokemon => {
+          // console.log(<Pokemon key={pokemon.id} pokemon={pokemon} />);
+          return <Pokemon key={pokemon.id} pokemon={pokemon} />;
+        })}
+      </div>
+    );
+  }
+}
+
+// pokemon.js
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import '../styles/pokemon.css';
+
+export default class Pokemon extends React.Component {
+  render() {
+    const { name, type, averageWeight, image } = this.props.pokemon;
+    return (
+      <div className="container-Pokemon">
+        <div>
+          <p>Nome: {name}</p>
+          <p>Tipo: {type}</p>
+          <p>{`Peso: ${averageWeight.value}${averageWeight.measurementUnit}`}</p>
+        </div>
+        <img src={image} alt={`${name} imagem pokemon`} />
+      </div>
+    );
+  }
+}
+
+Pokemon.propTypes = {
+  pokemon: PropTypes.shape({
+    name: PropTypes.string,
+    type: PropTypes.string,
+    averageWeight: PropTypes.shape({
+      measurementUnit: PropTypes.string,
+      value: PropTypes.number,
+    }),
+    image: PropTypes.string,
+  }).isRequired,
+};
 ```
 
 </details>
