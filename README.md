@@ -63,13 +63,9 @@ Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é 
 
 #### Resposta:
 
-#
-
 <div align="center">
   <img src="https://course.betrybe.com//front-end/react/components/my-pokedex-project.gif" alt="demo" height="300">
 </div>
-
-#
 
 <details>
  <summary> :pencil2: Código Javascript</summary>
