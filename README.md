@@ -60,8 +60,8 @@ Uma aplicação desenvolvida em React é composta de componentes. Ou seja, eles 
 </details>
 
 <p align="right">
-   <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_11-2_Edu_Souza/src/challenge_1-o_modelo_boxer.html">
-    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+   <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_11-2_Edu_Souza">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-app.react-orange">
     </a>&nbsp;
     <a href="#clipboard-Sumário">
     <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
