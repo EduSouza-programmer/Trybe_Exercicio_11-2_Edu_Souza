@@ -156,6 +156,7 @@ Pokemon.propTypes = {
     image: PropTypes.string,
   }).isRequired,
 };
+
 ```
 
 </details>
